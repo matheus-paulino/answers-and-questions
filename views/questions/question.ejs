@@ -1,0 +1,18 @@
+<%- include('../layouts/header', {title: 'Create question'}) %>
+  <div class="container py-3">
+    <div class="card">
+      <div class="card-header">
+        <h3>Create question</h3>
+      </div>
+      <div class="card-body">
+        <form action="">
+          <label for="title" class="col-form-label">Title question</label>
+          <input id="title" type="text" placeholder="Title" class="form-control">
+          <label for="title" class="col-form-label">Description</label>
+          <textarea id="description" placeholder="Title" class="form-control"></textarea>
+          <button type="submit" class="btn btn-success my-3 text-center">Save</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <%- include('../layouts/footer-scripts') %>

@@ -9,6 +9,10 @@ app.get("/", (req, res) => {
     res.render('index')
 })
 
+app.get('/question', (req, res) => {
+    res.render('questions/question')
+})
+
 app.listen(8080, () => {
     console.log('App Running!')
 })
